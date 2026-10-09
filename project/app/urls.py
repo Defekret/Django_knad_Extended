@@ -21,6 +21,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/', include('phones.api_urls')),
     path('phones/', include('phones.urls')),
     path('', RedirectView.as_view(url='/phones/', permanent=True)),
 ]

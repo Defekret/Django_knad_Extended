@@ -1,20 +1,18 @@
-# Установка базового образа Python
-FROM python
+FROM python:3.11-slim
 
-# Добавление метаданных об авторе
 LABEL maintainer="Defekret"
 
-# Установка переменных окружения для Python
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
-ENV PYTHONPATH=/usr/local/lib/python3.x/site-packages/:/usr/local/bin/python
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
-# Копирование всех файлов приложения в каталог рабочей директории
-COPY project /app_knad
+WORKDIR /app_knad
 
-# Установка зависимостей Python
+COPY project/requirements.txt .
 RUN pip install --upgrade pip
-RUN pip install -r app_knad/requirements.txt
+RUN pip install -r requirements.txt
 
-# Запуск приложения`
-CMD ["python", "app_knad/manage.py", "runserver", "0.0.0.0:80"]
+COPY project/ .
+
+EXPOSE 8000
+
+CMD ["sh", "-c", "python manage.py migrate && python manage.py runserver 0.0.0.0:8000"]

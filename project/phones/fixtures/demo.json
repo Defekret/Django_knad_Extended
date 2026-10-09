@@ -1,0 +1,97 @@
+[
+{
+ "model": "phones.phone",
+ "pk": 1,
+ "fields": {
+  "image": "phones/galaxy-s20_bts-edition_symbol.webp",
+  "model_name": "Galaxy S20+ BTS Edition",
+  "brand": "Samsung",
+  "price": 100000.0,
+  "color": "purple",
+  "operation_system": "Android",
+  "screen_size": 6.7,
+  "preview_text": "Пользуясь смартфоном Galaxy S20+ BTS Edition, вы сможете оценить все великолепие нового революционного смартфона потрясающего фиолетового цвета. В сотрудничестве с членами группы BTS, дизайнеры Samsung создали эксклюзивный дизайн телефона Galaxy S20+, декорированный эксклюзивными стикерами, графикой и другими элементами. Оцените инновационную камеру и дизайн смартфона Galaxy S20+, оформленный с участием группы BTS..",
+  "rating": 10,
+  "camera_resolution": 64.0,
+  "stock_quantity": 13,
+  "storage": 128,
+  "is_favorite": false
+ }
+},
+{
+ "model": "phones.phone",
+ "pk": 2,
+ "fields": {
+  "image": "phones/707ab5022ff31a8dc1ff82ce556ce2251a32b1f6ff6f2611a954bf75cbcda349.jpg.webp",
+  "model_name": "Pixel 6",
+  "brand": "Google",
+  "price": 45999.0,
+  "color": "black",
+  "operation_system": "Google",
+  "screen_size": 6.4,
+  "preview_text": "Google Pixel 6 базируется на собственном чипсете Google под названием Tensor. Процессор включает в себя два высокопроизводительных ядра, два «средних» ядра и четыре энергоэффективных ядра. Tensor линейка Pixel 6 обладает несколькими функциями для превосходной съемки. Кроме того, смартфон оснащен технологией для минимизации эффекта размытия лица при съемке движущихся объектов. Также присутствует функция Motion Mode, которая подходит для экшн-съемки.",
+  "rating": 5,
+  "camera_resolution": 50.0,
+  "stock_quantity": 3,
+  "storage": 128,
+  "is_favorite": false
+ }
+},
+{
+ "model": "phones.phone",
+ "pk": 3,
+ "fields": {
+  "image": "phones/9a68157fa240ef099402e126d47736f7.jpeg",
+  "model_name": "iPhone 14 Pro Max",
+  "brand": "Apple",
+  "price": 140990.0,
+  "color": "Dark violet",
+  "operation_system": "OS",
+  "screen_size": 6.7,
+  "preview_text": "Волшебный способ взаимодействия с вашим iPhone. Революционные функции безопасности, разработанные для спасения жизней. Инновационная основная камера 48 Мп. И дисплей, который до 2 раз ярче на солнце. Все это работает на новейшем чипе для смартфонов.",
+  "rating": 9,
+  "camera_resolution": 48.0,
+  "stock_quantity": 42,
+  "storage": 256,
+  "is_favorite": false
+ }
+},
+{
+ "model": "phones.phone",
+ "pk": 4,
+ "fields": {
+  "image": "phones/th-2652731955.jpg",
+  "model_name": "13 Pro",
+  "brand": "Xiaomi",
+  "price": 109900.0,
+  "color": "black",
+  "operation_system": "Android",
+  "screen_size": 6.73,
+  "preview_text": "Корпус смартфона изящно изогнут с обеих сторон. Экран смартфона выполнен из прочного стекла Corning® Gorilla® Glass Victus®. Задняя панель сделана из биокерамического материала, соответствующего стандарту продуктов медицинского назначения. Она не только придает корпусу гладкость и обтекаемость, но и воплощает концепцию флагманского дизайна: шедевр, в котором сочетаются профессионализм, элегантность и прочность.",
+  "rating": 8,
+  "camera_resolution": 50.0,
+  "stock_quantity": 8,
+  "storage": 256,
+  "is_favorite": false
+ }
+},
+{
+ "model": "phones.phone",
+ "pk": 5,
+ "fields": {
+  "image": "phones/cdn.svyaznoy.jpg",
+  "model_name": "70",
+  "brand": "Honor",
+  "price": 40490.0,
+  "color": "black",
+  "operation_system": "Android",
+  "screen_size": 6.67,
+  "preview_text": "HONOR 70 имеет симметрично загнутые края передней и задней панели, благодаря чему смартфон удобно лежит в руке. Камера смартфона выполнена в виде двух симметричных кругов с эффектом свечения.",
+  "rating": 5,
+  "camera_resolution": 54.0,
+  "stock_quantity": 2,
+  "storage": 256,
+  "is_favorite": false
+ }
+}
+]

@@ -17,3 +17,9 @@ class PhoneCompareForm(forms.Form):
         label='Второй телефон',
         required=False,
     )
+
+
+class PhoneForm(forms.ModelForm):
+    class Meta:
+        model = Phone
+        exclude = ['image', 'is_favorite']
